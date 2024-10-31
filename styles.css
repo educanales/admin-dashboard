@@ -58,6 +58,8 @@ main {
 
 }
 
+/* Sidebar */
+
 aside {
   grid-area: sidebar;
   background-color: #1992d4;
@@ -93,6 +95,8 @@ aside {
 h1 {
   font-size: 1.5rem;
 }
+
+/* Header */
 
 header {
   grid-area: header;
@@ -177,6 +181,8 @@ input[type="search"] {
   color: #fff;
 }
 
+/* Content */
+
 section {
   grid-area: content;
   background-color: #e2e8f0;
@@ -189,8 +195,9 @@ section {
 
 .card-container-title {
   margin: 1rem;
-  /* padding-left: 0.5rem; */
 }
+
+/* Projects */
 
 .projects {
   grid-column: 1 / 2;
@@ -213,6 +220,8 @@ section {
   /* max-height: 250px; */
 }
 
+/* Announcements */
+
 .announcements {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
@@ -231,6 +240,8 @@ section {
 hr {
   opacity: 0.7;
 }
+
+/* Trending */
 
 .trending {
   grid-column: 2 / 3;

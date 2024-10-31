@@ -51,7 +51,7 @@ body {
 main {
   display: grid;
   grid-template-columns: minmax(250px, 1fr) 4fr;
-  grid-template-rows: 200px 5fr;
+  grid-template-rows: 180px 5fr;
 }
 
 aside {
@@ -78,9 +78,6 @@ aside {
   max-height: 2.7rem;
 }
 
-/* .sidebar-container {
-} */
-
 .sidebar-elmnt {
   display: flex;
   gap: 1rem;
@@ -100,9 +97,8 @@ header {
   grid-row: 1 / 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-  /* margin: 0 auto; */
+  justify-content: space-between;
+  padding: 1rem 2.8rem;
 }
 
 .first-container,
@@ -110,17 +106,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   gap: 2rem;
-  /* max-width: 1500px; */
 }
 
 .first-container > form {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
   margin-right: auto;
+  width: min(700px, 60%);
 }
 
 input[type="search"] {
@@ -128,23 +122,23 @@ input[type="search"] {
   border: none;
   border-radius: 15px;
   /* width: clamp(250px, 80%, 500px); */
-  width: 500px;
+  width: 100%;
 }
 
 .search-icon,
 .notification-icon {
-  max-height: 2rem;
+  max-height: 1.5rem;
 }
 
 .account {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .account > h4 {
-  width: 200px;
+  min-width: 130px;
 }
 
 .user-avatar {
@@ -223,10 +217,6 @@ section > h3 {
   border-radius: 15px;
   padding: 2rem;
 }
-
-/* .announcements > div {
-  
-} */
 
 .trending {
   grid-column: 2 / 3;
